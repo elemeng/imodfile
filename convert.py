@@ -1,5 +1,5 @@
 import argparse
-from imodfile import parse_imod, write_imod, IMODModel
+from imodfile import parse_imod, write_imod
 
 
 def apply_operations(points, operations):
