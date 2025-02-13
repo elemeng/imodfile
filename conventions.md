@@ -1,4 +1,8 @@
-markdownCopy
+This document is converted from IMOD official documentation and for coding reference using only. See [https://bio3d.colorado.edu/imod/betaDoc/binspec.html]
+
+# Conventions
+IMOD is a set of programs for analyzing, processing, and visualizing 3D images. 
+
 # IMOD Binary File Format
 
 The IMOD binary file format is similar to the IFF format standard in that it uses chunk IDs for data headings. Each chunk ID is 4 bytes long and is defined as a string of 4 characters. This is the format used by IMOD Version 2.0 and onward. All numbers are stored in big-endian format regardless of machine architecture. In the descriptions of flags below, bits are numbered from 0.
